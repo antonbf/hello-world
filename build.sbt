@@ -5,7 +5,7 @@
 
       stage 'Build'
           git url: 'https://github.com/antonbf/hello-world.git
-          console.log("Hello")
+          console.log("Hello World")
   
      stage 'Artifactory configuration'
          rtMaven.tool = 'myMaven' //tool name from Jenkins configuration
